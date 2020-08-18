@@ -91,7 +91,7 @@
 
     @foreach($initial['education'] as $field)
         <div class="w3-right" style="width: 72.5%;">
-            <h2>{{$field->college}}</h2>
+            <h3>{{$field->college}}</h3>
             <p class="subDetails">{{$field->qualification}}</p>
             <p class="w3-justify" style="border-bottom: 1px dotted gray">{{$field->description}}</p>
         </div>
